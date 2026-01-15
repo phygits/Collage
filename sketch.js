@@ -1,4 +1,4 @@
-let back, face, flower, future, legvag, looks, miumiu, recflectImage, self;
+let back, face, flower, future, legvag, looks, miumiu, recflectImage;
 let w,h;
 let allImages = [];
 
@@ -19,9 +19,8 @@ async function setup() {
   looks = await loadImage('assets/looks.png');
   miumiu = await loadImage('assets/miumiu.png');
   reflectImage = await loadImage('assets/reflect.png');
-  self = await loadImage('assets/self.png');
   
-    allImages = [back, face, flower, future, legvag, looks, miumiu, reflectImage, self];
+    allImages = [back, face, flower, future, legvag, looks, miumiu, reflectImage];
 
   background(bgColor); 
   //noLoop();
