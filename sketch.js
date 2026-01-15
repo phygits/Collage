@@ -7,7 +7,7 @@ let bgColor = "rgb(0,0,0)";
 let showFinalImages = false;
 
 async function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(600,800);
   w = width;
   h = height;
   
